@@ -10,7 +10,7 @@ A simple and responsive calculator application with dark mode and light mode opt
 
 ## Demo
 
-[Live Demo](insert your live demo link here)
+[Live Demo](https://wassimoubaziz.github.io/calculator/)
 
 ## Screenshots
 
@@ -25,7 +25,7 @@ A simple and responsive calculator application with dark mode and light mode opt
 
 ## How to Use
 
-1. Clone the repository: `git clone insert_repository_url`
+1. Clone the repository: `git clone https://github.com/wassimOubaziz/calculator.git`
 2. Open `index.html` in your web browser.
 
 ## Dark/Light Mode Toggle
