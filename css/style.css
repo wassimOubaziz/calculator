@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #2c2e33;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.calculator {
+  width: 360px;
+  border-radius: 10px;
+  background-color: #22252d;
+  color: white;
+  padding-top: 10px;
+}
+.theme {
+  display: flex;
+  justify-content: center;
+}
+.them {
+  width: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 18px;
+  background-color: #292d36;
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.display p {
+  text-align: right;
+  height: 38px;
+  font-size: 25px;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.display input {
+  margin-top: 5px;
+  text-align: right;
+  letter-spacing: 1px;
+  height: 50px;
+  font-size: 30px;
+  border: none;
+  background-color: transparent;
+  color: white;
+}
+
+.display input:focus {
+  outline: none;
+}
+
+.pad {
+  background-color: #292d36;
+  margin-top: 15px;
+  border-radius: 30px 30px 0px 0px;
+  display: grid;
+  padding: 30px 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.pad .box i {
+  font-size: 23px;
+}
+
+.pad .box #dot {
+  font-size: 8px;
+}
+
+.pad .box.t1 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #26ffd8;
+}
+
+.pad .box.tc {
+  color: #26ffd8;
+}
+
+.pad .box.tb {
+  color: #f97c7b;
+}
+
+.pad .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  background-color: #272b33;
+  cursor: pointer;
+}
+
+.pad .box:hover {
+  opacity: 0.75;
+  transform: scale(1.06, 1.06);
+}
+
+.light {
+  transition: opacity 0.3s ease;
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.dark {
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+}
